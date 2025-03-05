@@ -1,51 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather App</title>
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="shape shape-1"></div>
-      <div class="shape shape-2"></div>
-      <div class="container">
-        <div class="search-container">
-          <input
-            type="text"
-            placeholder="Enter a city name"
-            id="city"
-            value="mumbai"
-          />
-          <button id="search-btn">Search</button>
-        </div>
-        <div id="result">
-            <h2>New York</h2>
-            <p class="weather">Clear </p>
-            <p class="humidity">Clear sky</p>
-            <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="">
-            <h1>22.33 &deg;</h1>
-            <div class="wind-container">
-                <div>
-                    <p class="title">wind dir</p>
-                    <p class=" wind_direction wind">22.5&deg;</p>
-                </div>
-                <div>
-                    <p class="title">wind kph</p>
-                    <p class=" wind_speed wind">22.5&deg;</p>
-                </div>
-            </div>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="container">
+      <div class="search-container">
+        <input type="text" placeholder="Enter a city name" id="city" value="mumbai" />
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="result">
+        <h2>New York</h2>
+        <p class="weather">Clear </p>
+        <p class="humidity">Clear sky</p>
+        <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="">
+        <h1>22.33 &deg;</h1>
+        <div class="wind-container">
+          <div>
+            <p class="title">wind dir</p>
+            <p class=" wind_direction wind">22.5&deg;</p>
+          </div>
+          <div>
+            <p class="title">wind kph</p>
+            <p class=" wind_speed wind">22.5&deg;</p>
+          </div>
         </div>
       </div>
     </div>
-    <!-- Script -->
-  
-    <script src="/script.js"></script>
-  </body>
+  </div>
+  <!-- Script -->
+
+  <script src="/script.js"></script>
+</body>
+
 </html>
