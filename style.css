@@ -125,7 +125,9 @@ body {
 .weather {
   margin-top: -0.7em;
 }
-
+.loading{
+  margin-top: 2rem;
+}
 #result img {
   margin: 0.6em 0 0 0;
   width: 6.2em;
